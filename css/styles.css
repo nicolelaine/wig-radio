@@ -1,0 +1,81 @@
+/*  *  {
+    outline: 1px solid red;
+   }
+
+*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #522d6d;
+    background-color: #FFFFFF;
+    max-width: 100%;
+  /*  background-color: #522d6d; */
+}
+
+header {
+    background-color: #522d6d;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF; 
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+audio {
+    width: 100%;
+    padding-bottom: 25px;
+   /* padding-bottom: 100px; */
+}
+
+footer {
+    background-color: #522d6d;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  /*  position: fixed; */
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logo {
+    margin-top: 20px;
+    width: 20%;
+    height: auto;
+}
+
+#audio-player {
+    padding-top: 1px;
+}
+
+#where-we-are {
+    padding-top: 1px;
+}
+
+.us {
+    width: 30%; /* Set the width of the images within section elements */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.map {
+    border: #522d6d solid 3px;
+    max-width: 100%;
+}
